@@ -1,0 +1,159 @@
+* {
+     box-sizing: border-box;
+}
+ html{   
+
+background: linear-gradient(90deg, rgba(90,89,94,1) 0%, rgba(123,123,131,1) 50%, rgba(90,89,94,1) 100%);
+    font-family: 'Libre Baskerville', serif;
+     color: rgb(253, 249, 243);	 
+}
+
+a{
+	color:rgb(120, 220, 232);
+}
+a:visited{
+	color:rgb(171, 157, 242);
+}
+a:hover{
+	
+	color:rgb(180, 220, 232);
+}
+
+table, td, th {
+  border: solid 1px #000;
+}
+
+td{
+	height:30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+
+
+
+li{
+	
+	padding:10px;
+}
+.textoRepetido{
+	color:rgb(169, 220, 118);	
+}
+ .contenedorh1 {
+     float:right;
+     margin-left:10%;
+     margin-right:10%;
+     width:75%;
+     padding:10px;
+	 padding-bottom: 0px;
+     font-size:25px;
+     color:#FFF;
+}
+ .contenedor {
+     float:left;
+	 margin-top:25px;
+     margin-left:10%;
+     margin-right:10%;
+     margin-bottom:50px;
+     background-color:rgb(44, 41, 45);
+     width:80%;
+     padding:50px;
+     padding-left:115px;
+     border-radius: 5px;
+	 font-size:25px;	 
+}
+ .contenedorImg {
+     position:relative;
+     float:left;
+     width:30%;
+     height:auto;
+     padding:10px;
+     text-align:center;
+     margin:10px;
+     border-radius: 2px;
+     background-color: rgba(216, 216, 216, 0.315);
+     
+}
+
+.contenedorImg img{
+
+     width: 200px;
+
+}
+
+ .imgClass {
+     width: 50%;
+     height: auto;
+}
+ .zoom {
+     transition: transform .5s;
+    /* Animation */
+     margin: 0 auto;
+}
+ .zoom:hover {
+     transform: scale(1.2);
+}
+ .descrip {
+     float:right;
+     width:55%;
+}
+
+.error {
+     float: left;
+     font-size:15px; 
+     color:red;
+     background-color: grey;
+     position: absolute;
+     padding:2px;
+     width: 210px;
+     margin-top: 1px;
+     }
+.ocultar{
+     display:none;
+}
+.mostrar{
+     display:inline;
+}
+li{
+list-style-type:none;
+width:210px;
+position:relative;
+border-bottom: 1px solid #2f2f2f;
+display:block;
+
+}
+#lista-titulos
+{
+float: left;
+list-style: none;
+margin-top: 1px;
+padding: 0;
+width: 210px;
+position: absolute;
+background-color: grey;
+font-size:13px;
+
+}
+
+input{
+
+width: 210px;
+border-radius: 2px;
+padding:5px;
+border: 1px solid grey ;
+color: grey;
+}
+
+input:focus{
+
+
+color: black;
+}
+
+
